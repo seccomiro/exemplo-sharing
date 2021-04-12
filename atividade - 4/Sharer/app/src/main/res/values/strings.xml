@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Sharer</string>
+    <string name="info">Information</string>
+    <string name="gallary">Open Gallary</string>
+    <string name="sharer_img">Sharer Image</string>
+    <string name="send">Send</string>
+    <string name="request_permission">Request Permission</string>
+</resources>

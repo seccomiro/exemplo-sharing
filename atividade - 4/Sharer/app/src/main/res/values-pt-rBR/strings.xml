@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sharer</string>
+    <string name="info">Informação</string>
+    <string name="gallary">Abrir Galeria</string>
+    <string name="sharer_img">Compartilhar Image</string>
+    <string name="send">Enviar</string>
+    <string name="request_permission">Solicitar Permissão</string>
+</resources>

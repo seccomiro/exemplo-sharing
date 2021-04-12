@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ifpr.lubank.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigateToViewBalance"
+            app:destination="@id/viewBalanceFrament" />
+        <action
+            android:id="@+id/navigateToChooseRecipient"
+            app:destination="@id/chooseRecipientFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewBalanceFrament"
+        android:name="com.ifpr.lubank.fragments.ViewBalanceFrament"
+        android:label="fragment_view_balance_frament"
+        tools:layout="@layout/fragment_view_balance_frament"
+        />
+    <fragment
+        android:id="@+id/specifyAmountFragment"
+        android:name="com.ifpr.lubank.fragments.SpecifyAmountFragment"
+        android:label="fragment_specify_amount"
+        tools:layout="@layout/fragment_specify_amount" >
+        <action
+            android:id="@+id/navigateToConfirmation"
+            app:destination="@id/confirmationFragment" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigateToHomeFromSpecify"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseRecipientFragment"
+        android:name="com.ifpr.lubank.fragments.ChooseRecipientFragment"
+        android:label="fragment_choose_recipient"
+        tools:layout="@layout/fragment_choose_recipient" >
+        <action
+            android:id="@+id/navigateToSpecifyAmount"
+            app:destination="@id/specifyAmountFragment" />
+        <action
+            android:id="@+id/navigateToHome"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.ifpr.lubank.fragments.ConfirmationFragment"
+        android:label="fragment_confirmation"
+        tools:layout="@layout/fragment_confirmation" >
+        <argument
+            android:name="money"
+            app:argType="string" />
+        <argument
+            android:name="txtName"
+            app:argType="string" />
+    </fragment>
+</navigation>

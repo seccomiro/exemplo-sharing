@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="singup_msg">還沒有帳戶？創建一個</string>
+    <string name="username">用戶名</string>
+    <string name="password">密碼</string>
+    <string name="register">註冊</string>
+    <string name="login_field_error">用戶名或密碼不正確</string>
+    <string name="register_field_empty">用戶名或密碼為空</string>
+    <string name="register_field_password">密碼和密碼確認不相同</string>
+    <string name="register_msg">輸入您要註冊的數據！</string>
+    <string name="register_dialog_title">註冊</string>
+    <string name="register_dialog_msg">您的帳戶已成功創建</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="logout">註銷</string>
+    <string name="name_invalid">無效的名稱</string>
+    <string name="view">查看</string>
+    <string name="value">值</string>
+    <string name="dollar">美元</string>
+    <string name="depositORSend">接收或發送</string>
+    <string name="name">名稱</string>
+    <string name="name_isempty">名稱為空</string>
+    <string name="send">發送</string>
+    <string name="cancel">取消</string>
+    <string name="sending">發送</string>
+    <string name="amount">金額</string>
+    <string name="msg_sending">發送至</string>
+    <string name="receive">接收</string>
+    <string name="receiving">接收</string>
+    <string name="search">搜索</string>
+    <string name="msg_value_erro">無效值</string>
+    <string name="without_records">沒有記錄</string>
+    <string name="balance">餘額</string>
+    <string name="msg_sending_confimartion">匯款到 </string>
+    <string name="msg_confirmation">您已發送</string>
+    <string name="money">金錢</string>
+    <string name="currency">美元</string>
+    <string name="to">至</string>
+    <string name="congrats">祝賀</string>
+    <string name="expenses">費用</string>
+    <string name="revenue">收入</string>
+    <string name="yourself">你自己</string>
+</resources>

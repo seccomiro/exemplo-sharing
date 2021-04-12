@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Receptor</string>
+    <string name="msgImg">Aguardando por Imagem</string>
+    <string name="msg">Aguardando por Texto</string>
+</resources>

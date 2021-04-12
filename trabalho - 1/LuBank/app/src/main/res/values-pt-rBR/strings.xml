@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="singup_msg">Ainda não tem conta? Crie uma</string>
+    <string name="password">Senha</string>
+    <string name="register">Registrar</string>
+    <string name="username" translatable="false">Usuário</string>
+    <string name="login_field_error">Usuário ou Senha está Incorreto</string>
+    <string name="register_field_empty">Usuário ou Senha está vazio</string>
+    <string name="register_field_password">Senha e senha de confirmação não são iguais</string>
+    <string name="register_msg">Digite seus dados para se Registrar</string>
+    <string name="register_dialog_title">Registrar</string>
+    <string name="register_dialog_msg">Conta foi criada com sucesso</string>
+    <string name="confirm_password">Confirmar Senha</string>
+    <string name="logout">Sair</string>
+    <string name="name_invalid">Nome Inválido</string>
+    <string name="view">Visualizar</string>
+    <string name="value">Valor</string>
+    <string name="dollar">R$</string>
+    <string name="depositORSend">Receber ou Enviar</string>
+    <string name="name">Nome</string>
+    <string name="name_isempty">Nome está vazio</string>
+    <string name="send">Enviar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="sending">Enviando</string>
+    <string name="amount">Montante</string>
+    <string name="msg_sending">Enviando Para</string>
+    <string name="receive">Receber</string>
+    <string name="receiving">Recebendo</string>
+    <string name="search">Pesquisar</string>
+    <string name="msg_value_erro">Valor Inválido</string>
+    <string name="without_records">Sem Relatório</string>
+    <string name="balance">Saldo</string>
+    <string name="msg_sending_confimartion">Enviando Dinheiro para</string>
+    <string name="msg_confirmation">Você enviou</string>
+    <string name="money">Dinheiro</string>
+    <string name="currency">R$</string>
+    <string name="to">Para</string>
+    <string name="congrats">Parabéns</string>
+    <string name="revenue">Receitas</string>
+    <string name="expenses">Despesas</string>
+    <string name="yourself">Você mesmo</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IF Bank</string>
+    <string name="send_money">Enviar Dinheiro</string>
+    <string name="cancel">Cancelar</string>
+    <string name="next">Próximo</string>
+    <string name="view_balance">Visualizar Balanço</string>
+    <string name="view_transactions">Visualizar Transação</string>
+    <string name="ok">OK</string>
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
+
+    <string name="error_login">Login ou senha incorretos</string>
+    <string name="food">comida</string>
+    <string name="data">dados</string>
+    <string name="rent">renda</string>
+    <string name="candle">vela</string>
+    <string name="utility">utildiade</string>
+    <string name="deposit">Depositar</string>
+    <string name="name">Nome</string>
+    <string name="remember">Lembrar-me</string>
+    <string name="amount">Montante</string>
+    <string name="value">R$ 200</string>
+    <string name="dolar">R$ 1</string>
+    <string name="to">Para</string>
+    <string name="money">Dinheiro</string>
+    <string name="msg_confirmation">Você enviou</string>
+    <string name="msg_sending">Enviando dinheiro para</string>
+    <string name="recipment">Recebedor</string>
+    <string name="send">Enviar</string>
+    <string name="moeda">R$</string>
+</resources>

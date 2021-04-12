@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Receptor</string>
+    <string name="msg">Wait For Text</string>
+    <string name="msgImg">Wait For Image</string>
+</resources>
